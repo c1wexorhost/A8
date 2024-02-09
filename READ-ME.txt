@@ -1,0 +1,11 @@
+  =>  Template Name    : SAMAK
+
+  =>  Template Link    : https://wexorai.com/bootstrap-restaurant-template
+
+  =>  Template License : https://wexorai.com/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : WexorAI
+
+  =>  Author Website   : https://wexorai.com
+
+  =>  About WexorAI : WexorAI is one of the top creators and publishers of Free HTML templates, HTML landing pages, HTML email templates and HTML snippets in the world. Read more at ( https://wexorai.com/about-us )
