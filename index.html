@@ -1,880 +1,589 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>SAMAK</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
-    <meta name="google-site-verification" content="hxzOqWLddqhd2B1pVWE96e7FLmTZ5PsidEoU0X2j74M" />
-    <!-- Favicon -->
-    <link href="logo/samak_logo.png" rel="icon" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>SAMAK</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+  <meta name="google-site-verification" content="hxzOqWLddqhd2B1pVWE96e7FLmTZ5PsidEoU0X2j74M" />
+  <!-- Favicon -->
+  <link href="logo/samak_logo.png" rel="icon" />
 
-    <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+    rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link
-      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
-      rel="stylesheet"
-    />
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <body>
-    <div class="bg-white p-0">
-      <!-- Spinner Start -->
-      <div
-        id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-      >
-        <div
-          class="spinner-border text-primary"
-          style="width: 3rem; height: 3rem"
-          role="status"
-        >
-          <span class="sr-only">Loading...</span>
-        </div>
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="bg-white p-0">
+    <!-- Spinner Start -->
+    <div id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+        <span class="sr-only">Loading...</span>
       </div>
-      <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
-      <!-- Navbar & Hero Start -->
-      <div class="position-relative p-0">
-        <nav
-          class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
-        >
-          <a href="/" class="navbar-brand p-0">
-            <h1 class="text-light m-0">
-              <i class="fa f me-3"><img src="logo/logo.png" alt="" /></i>
-            </h1>
-            <!-- <img src="img/logo.png" alt="Logo"> -->
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
-            <span class="fa fa-bars"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0 pe-4">
-              <a href="/" class="nav-item nav-link active">Home</a>
-              <a href="about.html" class="nav-item nav-link">About</a>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <!-- <a href="" class="btn btn-primary py-2 px-4">Book A Table</a> -->
+    <!-- Navbar & Hero Start -->
+    <div class="position-relative p-0">
+      <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+        <a href="/" class="navbar-brand p-0">
+          <h1 class="text-light m-0">
+            <i class="fa f me-3"><img src="logo/logo.png" alt="" /></i>
+          </h1>
+          <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0 pe-4">
+            <a href="/" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
-        </nav>
-
-        <div class=" py-5 bg-dark hero-header mb-5" id="mobile-view-class">
-          <div class="container my-5 py-5">
-            <div class="row align-items-center g-5">
-              <div class="col-lg-6 text-center text-lg-start">
-                <h1 class="display-3 text-white animated slideInLeft">
-                  Enjoy Our<br />Delicious Meal
-                </h1>
-                <p class="text-white animated slideInLeft mb-4 pb-2">
-                  Indulge in the ocean's bounty at our SAMAK Restaurant, where
-                  every dish is a delicious journey from sea to plate.
-                </p>
-                <a
-                  href="contact.html"
-                  class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft"
-                  >Book A Table</a
-                >
-              </div>
-              <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                <img class="img-fluid" src="img/hero.png" alt="" />
-              </div>
-            </div>
-          </div>
+          <!-- <a href="" class="btn btn-primary py-2 px-4">Book A Table</a> -->
         </div>
-      </div>
-      <!-- Navbar & Hero End -->
+      </nav>
 
-      <!-- Service Start -->
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-4">
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="service-item rounded pt-3">
-                <div class="p-4">
-                  <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                  <h5>Master Chefs</h5>
-                  <p>
-                    Experience culinary mastery at its finest with our esteemed
-                    master chef, crafting exquisite flavors and elevating dining
-                    to an art form.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="service-item rounded pt-3">
-                <div class="p-4">
-                  <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                  <h5>Quality Food</h5>
-                  <p> 
-                    Savor excellence in every bite. Experience a symphony of
-                    flavors from the finest ingredients. Quality guaranteed,
-                    satisfaction assured.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="service-item rounded pt-3">
-                <div class="p-4">
-                  <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                  <h5>Online Order</h5>
-                  <p>
-                    Order gourmet delights with a click. Indulge in culinary
-                    delivered straight to your doorstep, where convenience meets
-                    excellence.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-              <div class="service-item rounded pt-3">
-                <div class="p-4">
-                  <i class="fa fa-3x fa-fish text-primary mb-4"></i>
-                  <h5>Best Seafood</h5>
-                  <p>
-                    Dive into exquisite flavor with our aquatic delights- where
-                    evary bite is a splash of freshness with quality food to
-                    your expectations
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Service End -->
-
-      <!-- About Start -->
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-              <div class="row g-3">
-                <div class="col-6 text-start">
-                  <img
-                    class="img-fluid rounded w-100 wow zoomIn"
-                    data-wow-delay="0.1s"
-                    src="images/13.jpeg"
-                  />
-                </div>
-                <div class="col-6 text-start">
-                  <img
-                    class="img-fluid rounded w-75 wow zoomIn"
-                    data-wow-delay="0.3s"
-                    src="images/17.jpeg"
-                    style="margin-top: 25%"
-                  />
-                </div>
-                <div class="col-6 text-end">
-                  <img
-                    class="img-fluid rounded w-75 wow zoomIn"
-                    data-wow-delay="0.5s"
-                    src="img/IMG_6110.png"
-                  />
-                </div>
-                <div class="col-6 text-end">
-                  <img
-                    class="img-fluid rounded w-100 wow zoomIn"
-                    data-wow-delay="0.7s"
-                    src="img/IMG_6105.png"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <h5
-                class="section-title ff-secondary text-start text-primary fw-normal"
-              >
-                About Us
-              </h5>
-              <h1 class="mb-4">
-                Welcome to
-                <i class="fa text-primary me-2"
-                  ><img
-                    src="logo/samak_logo.png"
-                    alt=""
-                    style="width: 50px" /></i
-                >SAMAK Restaurant
+      <div class=" py-5 bg-dark hero-header mb-5" id="mobile-view-class">
+        <div class="container my-5 py-5">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="display-3 text-white animated slideInLeft">
+                Enjoy Our<br />Delicious Meal
               </h1>
-              <p class="mb-4">
-                Where the waves meet your plate! Our seafood restaurant is a
-                heaven for seafood enthusiasts seeking a culinary adventure.
+              <p class="text-white animated slideInLeft mb-4 pb-2">
+                Indulge in the ocean's bounty at our SAMAK Restaurant, where
+                every dish is a delicious journey from sea to plate.
               </p>
-              <p class="mb-4">
-                Nestled along the picturesque coastline,our restaurant offers a
-                charming ambiance that captures the essence of the sea.
-              </p>
-              <div class="row g-4 mb-4">
-                <div class="col-sm-6">
-                  <div
-                    class="d-flex align-items-center border-start border-5 border-primary px-3"
-                  >
-                    <h1
-                      class="flex-shrink-0 display-5 text-primary mb-0"
-                      data-toggle="counter-up"
-                    >
-                      03
-                    </h1>
-                    <div class="ps-4">
-                      <p class="mb-0">Years of</p>
-                      <h6 class="text-uppercase mb-0">Experience</h6>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div
-                    class="d-flex align-items-center border-start border-5 border-primary px-3"
-                  >
-                    <h1
-                      class="flex-shrink-0 display-5 text-primary mb-0"
-                      data-toggle="counter-up"
-                    >
-                      15
-                    </h1>
-                    <div class="ps-4">
-                      <p class="mb-0">Popular</p>
-                      <h6 class="text-uppercase mb-0">Master Chefs</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+              <a href="contact.html" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+              <img class="img-fluid" src="img/hero.png" alt="" />
             </div>
           </div>
         </div>
       </div>
-      <!-- About End -->
+    </div>
+    <!-- Navbar & Hero End -->
 
-      <!-- Menu Start -->
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h5
-              class="section-title ff-secondary text-center text-primary fw-normal"
-            >
-              Food Menu
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                <h5>Master Chefs</h5>
+                <p>
+                  Experience culinary mastery at its finest with our esteemed
+                  master chef, crafting exquisite flavors and elevating dining
+                  to an art form.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item rounded pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                <h5>Quality Food</h5>
+                <p>
+                  Savor excellence in every bite. Experience a symphony of
+                  flavors from the finest ingredients. Quality guaranteed,
+                  satisfaction assured.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item rounded pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                <h5>Online Order</h5>
+                <p>
+                  Order gourmet delights with a click. Indulge in culinary
+                  delivered straight to your doorstep, where convenience meets
+                  excellence.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="service-item rounded pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-fish text-primary mb-4"></i>
+                <h5>Best Seafood</h5>
+                <p>
+                  Dive into exquisite flavor with our aquatic delights- where
+                  evary bite is a splash of freshness with quality food to
+                  your expectations
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-6 text-start">
+                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="images/13.jpeg" />
+              </div>
+              <div class="col-6 text-start">
+                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="images/17.jpeg"
+                  style="margin-top: 25%" />
+              </div>
+              <div class="col-6 text-end">
+                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/IMG_6110.png" />
+              </div>
+              <div class="col-6 text-end">
+                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/IMG_6105.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h5 class="section-title ff-secondary text-start text-primary fw-normal">
+              About Us
             </h5>
-            <h1 class="mb-5">Most Popular Items</h1>
+            <h1 class="mb-4">
+              Welcome to
+              <i class="fa text-primary me-2"><img src="logo/samak_logo.png" alt="" style="width: 50px" /></i>SAMAK
+              Restaurant
+            </h1>
+            <p class="mb-4">
+              Where the waves meet your plate! Our seafood restaurant is a
+              heaven for seafood enthusiasts seeking a culinary adventure.
+            </p>
+            <p class="mb-4">
+              Nestled along the picturesque coastline,our restaurant offers a
+              charming ambiance that captures the essence of the sea.
+            </p>
+            <div class="row g-4 mb-4">
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                  <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">
+                    03
+                  </h1>
+                  <div class="ps-4">
+                    <p class="mb-0">Years of</p>
+                    <h6 class="text-uppercase mb-0">Experience</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                  <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">
+                    15
+                  </h1>
+                  <div class="ps-4">
+                    <p class="mb-0">Popular</p>
+                    <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
           </div>
-          <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
-            <ul
-              class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5"
-            >
-              <li class="nav-item">
-                <a
-                  class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active"
-                  data-bs-toggle="pill"
-                  href="#tab-1"
-                >
-                  <i class="fa fa-utensils fa-2x text-primary"></i>
-                  <div class="ps-3">
-                    <small class="text-body">Special</small>
-                    <h6 class="mt-n1 mb-0">Launch</h6>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="d-flex align-items-center text-start mx-3 pb-3"
-                  data-bs-toggle="pill"
-                  href="#tab-2"
-                >
-                  <i class="fa fa-hamburger fa-2x text-primary"></i>
-                  <div class="ps-3">
-                    <small class="text-body">Special</small>
-                    <h6 class="mt-n1 mb-0">Dinner</h6>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="d-flex align-items-center text-start mx-3 me-0 pb-3"
-                  data-bs-toggle="pill"
-                  href="#tab-3"
-                >
-                  <i class="fa fa-coffee fa-2x text-primary"></i>
-                  <div class="ps-3">
-                    <small class="text-body">Popular</small>
-                    <h6 class="mt-n1 mb-0">Starters</h6>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <div class="tab-content">
-              <div id="tab-1" class="tab-pane fade show p-0 active">
-                <div class="row g-4">
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/2.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Thali</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A symphony of flavors in every bite, bringing the
-                          essence of coastal cuisine to your plate.</small
-                        >
-                      </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Menu Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h5 class="section-title ff-secondary text-center text-primary fw-normal">
+            Food Menu
+          </h5>
+          <h1 class="mb-5">Most Popular Items</h1>
+        </div>
+        <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+          <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+            <li class="nav-item">
+              <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                <i class="fa fa-utensils fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Special</small>
+                  <h6 class="mt-n1 mb-0">Launch</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Special</small>
+                  <h6 class="mt-n1 mb-0">Dinner</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                <i class="fa fa-coffee fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Popular</small>
+                  <h6 class="mt-n1 mb-0">Starters</h6>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="tab-1" class="tab-pane fade show p-0 active">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/2.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Thali</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A symphony of flavors in every bite, bringing the
+                        essence of coastal cuisine to your plate.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/3.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Mugli</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A harmonious blend of spices and succulent fish that
-                          will enchant your taste buds.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/3.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Mugli</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A harmonious blend of spices and succulent fish that
+                        will enchant your taste buds.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/4.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Mango Curry</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A harmony of spices and fresh catch that's sure to
-                          reel you in with its tantalizing flavors.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/4.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Mango Curry</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A harmony of spices and fresh catch that's sure to
+                        reel you in with its tantalizing flavors.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/5.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Salad</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A colorful medley of garden delights, bursting with
-                          flavor and vitality.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/5.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Salad</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A colorful medley of garden delights, bursting with
+                        flavor and vitality.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/6.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Pineapple Salad</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >Tangy sweetness meets refreshing crunch in our
-                          Pineapple Salad. A tropical delight that's as vibrant
-                          as it is delicious.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/6.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Pineapple Salad</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">Tangy sweetness meets refreshing crunch in our
+                        Pineapple Salad. A tropical delight that's as vibrant
+                        as it is delicious.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/7.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Moli</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A tantalizing blend of succulent fish and tropical
-                          sweetness that will transport your taste buds to
-                          paradise.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/7.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Moli</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A tantalizing blend of succulent fish and tropical
+                        sweetness that will transport your taste buds to
+                        paradise.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/8.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Russian Salad</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A delightful blend of vegetables, potatoes, and
-                          creamy dressing that will leave you craving for
-                          more.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/8.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Russian Salad</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A delightful blend of vegetables, potatoes, and
+                        creamy dressing that will leave you craving for
+                        more.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/9.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Kumarakom</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A symphony of spices and fresh catch, invoking the
-                          flavors of Kerala's pristine waters.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/9.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Kumarakom</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A symphony of spices and fresh catch, invoking the
+                        flavors of Kerala's pristine waters.</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="tab-2" class="tab-pane fade show p-0">
-                <div class="row g-4">
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/10.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Fry</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A golden delight that's sure to reel you in with its
-                          irresistible crunch and succulent flavor.</small
-                        >
-                      </div>
+            </div>
+            <div id="tab-2" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/10.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Fry</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A golden delight that's sure to reel you in with its
+                        irresistible crunch and succulent flavor.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/11.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Kondattam</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A golden delight that's sure to reel you in with its
-                          irresistible crunch and succulent flavor.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/11.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Kondattam</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A golden delight that's sure to reel you in with its
+                        irresistible crunch and succulent flavor.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/12.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Moli</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A golden delight that's sure to reel you in with its
-                          irresistible crunch and succulent flavor.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/12.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Moli</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A golden delight that's sure to reel you in with its
+                        irresistible crunch and succulent flavor.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/13.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Kumarakom</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A golden delight that's sure to reel you in with its
-                          irresistible crunch and succulent flavor.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/13.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Kumarakom</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A golden delight that's sure to reel you in with its
+                        irresistible crunch and succulent flavor.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/15.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Salad</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A golden delight that's sure to reel you in with its
-                          irresistible crunch and succulent flavor.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/15.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Salad</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A golden delight that's sure to reel you in with its
+                        irresistible crunch and succulent flavor.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/16.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Thandhoori</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A tantalizing blend of spices and fresh catch,
-                          capturing the essence of South Indian coastal
-                          cuisine.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/16.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Thandhoori</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A tantalizing blend of spices and fresh catch,
+                        capturing the essence of South Indian coastal
+                        cuisine.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/18.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Thandhoori</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A tantalizing blend of spices and fresh catch,
-                          capturing the essence of South Indian coastal
-                          cuisine.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/18.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Thandhoori</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A tantalizing blend of spices and fresh catch,
+                        capturing the essence of South Indian coastal
+                        cuisine.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/19.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Curry</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A rich and aromatic blend of spices that will
-                          transport you to the coastal shores with every
-                          delicious bite.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/19.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Curry</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A rich and aromatic blend of spices that will
+                        transport you to the coastal shores with every
+                        delicious bite.</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="tab-3" class="tab-pane fade show p-0">
-                <div class="row g-4">
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/20.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Arabic Salad</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A refreshing medley of crisp vegetables and exotic
-                          spices that will tantalize your taste buds.</small
-                        >
-                      </div>
+            </div>
+            <div id="tab-3" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/20.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Arabic Salad</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A refreshing medley of crisp vegetables and exotic
+                        spices that will tantalize your taste buds.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/21.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Salad</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A refreshing medley of crisp vegetables and exotic
-                          spices that will tantalize your taste buds.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/21.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Salad</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A refreshing medley of crisp vegetables and exotic
+                        spices that will tantalize your taste buds.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/22.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fry</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A refreshing medley of crisp vegetables and exotic
-                          spices that will tantalize your taste buds.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/22.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fry</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A refreshing medley of crisp vegetables and exotic
+                        spices that will tantalize your taste buds.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/23.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Thandhoori</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A refreshing medley of crisp vegetables and exotic
-                          spices that will tantalize your taste buds.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/23.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Thandhoori</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A refreshing medley of crisp vegetables and exotic
+                        spices that will tantalize your taste buds.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/24.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Thai Chickenl / Highlight</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A refreshing medley of crisp vegetables and exotic
-                          spices that will tantalize your taste buds.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/24.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Thai Chickenl / Highlight</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A refreshing medley of crisp vegetables and exotic
+                        spices that will tantalize your taste buds.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/25.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Grilled</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A succulent masterpiece kissed by flames, delivering
-                          a symphony of flavor in every tender bite.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/25.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Grilled</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A succulent masterpiece kissed by flames, delivering
+                        a symphony of flavor in every tender bite.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/26.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Fish Curry</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A succulent masterpiece kissed by flames, delivering
-                          a symphony of flavor in every tender bite.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/26.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish Curry</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A succulent masterpiece kissed by flames, delivering
+                        a symphony of flavor in every tender bite.</small>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="d-flex align-items-center">
-                      <img
-                        class="flex-shrink-0 img-fluid rounded"
-                        src="images/s1.jpeg"
-                        alt=""
-                        style="width: 80px"
-                      />
-                      <div class="w-100 d-flex flex-column text-start ps-4">
-                        <h5
-                          class="d-flex justify-content-between border-bottom pb-2"
-                        >
-                          <span>Chatti Falooda</span>
-                          <span class="text-primary"></span>
-                        </h5>
-                        <small class="fst-italic"
-                          >A traditional treat served in a clay pot, brimming
-                          with layers of sweetness and delight.</small
-                        >
-                      </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="images/s1.jpeg" alt="" style="width: 80px" />
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Chatti Falooda</span>
+                        <span class="text-primary"></span>
+                      </h5>
+                      <small class="fst-italic">A traditional treat served in a clay pot, brimming
+                        with layers of sweetness and delight.</small>
                     </div>
                   </div>
                 </div>
@@ -883,176 +592,152 @@
           </div>
         </div>
       </div>
-      <!-- Menu End -->
+    </div>
+    <!-- Menu End -->
 
 
-      <!-- Testimonial Start -->
-      <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
-                <h1 class="mb-5">Our Clients Say!!!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item bg-transparent border rounded p-4">
-                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                    <p>Samak is an absolute gem in Kottakkal! The freshness of their seafood dishes is unparalleled. Every visit is a delightful experience, and I can't recommend them enough.</p>
-                    <div class="d-flex align-items-center">
-                        <img class="img-fluid flex-shrink-0 rounded-circle" src="img/t1.jpg" style="width: 50px; height: 50px;">
-                        <div class="ps-3">
-                            <h5 class="mb-1">Basims Plate</h5>
-                            <small>Food Blogger</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item bg-transparent border rounded p-4">
-                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                    <p>I've been a regular at Samak for years, and the quality of their seafood never disappoints. From the flavorful curries to the perfectly grilled fish, every dish is a culinary masterpiece.</p>
-                    <div class="d-flex align-items-center">
-                        <img class="img-fluid flex-shrink-0 rounded-circle" src="img/pep.png" style="width: 50px; height: 50px;">
-                        <div class="ps-3">
-                            <h5 class="mb-1">Vahid Dubai</h5>
-                            <small>Personal Blogger</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item bg-transparent border rounded p-4">
-                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                    <p>Samak is my go-to spot for authentic seafood in Malappuram. The ambiance is charming, the service is excellent, and the food is always fresh and flavorful. Highly recommended!</p>
-                    <div class="d-flex align-items-center">
-                        <img class="img-fluid flex-shrink-0 rounded-circle" src="img/t3.jpg" style="width: 50px; height: 50px;">
-                        <div class="ps-3">
-                            <h5 class="mb-1">Nadirshah</h5>
-                            <small>Indian Actor</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item bg-transparent border rounded p-4">
-                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                    <p>Eating at Samak is like taking a culinary journey through the flavors of Kerala. Each dish is expertly prepared, and the taste is simply divine. A must-visit for seafood lovers!</p>
-                    <div class="d-flex align-items-center">
-                        <img class="img-fluid flex-shrink-0 rounded-circle" src="img/t4.jpg" style="width: 50px; height: 50px;">
-                        <div class="ps-3">
-                            <h5 class="mb-1">Vinod kovoor</h5>
-                            <small>Indian Actor</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="text-center">
+          <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
+          <h1 class="mb-5">Our Clients Say!!!</h1>
         </div>
+        <div class="owl-carousel testimonial-carousel">
+          <div class="testimonial-item bg-transparent border rounded p-4">
+            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+            <p>Samak is an absolute gem in Kottakkal! The freshness of their seafood dishes is unparalleled. Every visit
+              is a delightful experience, and I can't recommend them enough.</p>
+            <div class="d-flex align-items-center">
+              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/t1.jpg" style="width: 50px; height: 50px;">
+              <div class="ps-3">
+                <h5 class="mb-1">Basims Plate</h5>
+                <small>Food Blogger</small>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item bg-transparent border rounded p-4">
+            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+            <p>I've been a regular at Samak for years, and the quality of their seafood never disappoints. From the
+              flavorful curries to the perfectly grilled fish, every dish is a culinary masterpiece.</p>
+            <div class="d-flex align-items-center">
+              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/pep.png" style="width: 50px; height: 50px;">
+              <div class="ps-3">
+                <h5 class="mb-1">Vahid Dubai</h5>
+                <small>Personal Blogger</small>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item bg-transparent border rounded p-4">
+            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+            <p>Samak is my go-to spot for authentic seafood in Malappuram. The ambiance is charming, the service is
+              excellent, and the food is always fresh and flavorful. Highly recommended!</p>
+            <div class="d-flex align-items-center">
+              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/t3.jpg" style="width: 50px; height: 50px;">
+              <div class="ps-3">
+                <h5 class="mb-1">Nadirshah</h5>
+                <small>Indian Actor</small>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item bg-transparent border rounded p-4">
+            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+            <p>Eating at Samak is like taking a culinary journey through the flavors of Kerala. Each dish is expertly
+              prepared, and the taste is simply divine. A must-visit for seafood lovers!</p>
+            <div class="d-flex align-items-center">
+              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/t4.jpg" style="width: 50px; height: 50px;">
+              <div class="ps-3">
+                <h5 class="mb-1">Vinod kovoor</h5>
+                <small>Indian Actor</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Testimonial End -->
 
-      <!-- Footer Start -->
-      <div
-        class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
-        data-wow-delay="0.1s"
-      >
-        <div class="container py-5">
-          <div class="row g-5">
-            
-            <div class="col-lg-3 col-md-6">
-              <h4
-                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
-              >
-                Contact
-              </h4>
-              <p class="mb-2">
-                <i class="fa fa-map-marker-alt me-3"></i>Samak Restaurant,
-                Kottakkal
-              </p>
-              <p style="margin-left: 26px">Palathara, Opp Royal Enfield</p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9605705000</p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9605715000</p>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
 
-              <!-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p> -->
-              <div class="d-flex pt-2">
-                <a
-                  class="btn btn-outline-light btn-social"
-                  href="https://www.instagram.com/samakrestaurant?igsh=OWw5OXl3c2NpbWZ4"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              Contact
+            </h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Samak Restaurant,
+              Kottakkal
+            </p>
+            <p style="margin-left: 26px">Palathara, Opp Royal Enfield</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9605705000</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9605715000</p>
 
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-youtube"></i
-                ></a>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <h4
-                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
-              >
-                Contact
-              </h4>
-              <p class="mb-2">
-                <i class="fa fa-map-marker-alt me-3"></i>Samak Restaurant
-                Pondichery
-              </p>
-              <p style="margin-left: 26px">
-                Annanagar ,Nellithope,Near IG Signal
-              </p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9751434000</p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9751334000</p>
+            <!-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p> -->
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social"
+                href="https://www.instagram.com/samakrestaurant?igsh=OWw5OXl3c2NpbWZ4"><i
+                  class="fab fa-instagram"></i></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
 
-              <div class="d-flex pt-2">
-                <a
-                  class="btn btn-outline-light btn-social"
-                  href="https://www.instagram.com/samak_restaurant_pondy?igsh=ZHo1Mm9mdno1NWti"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <h4
-                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
-              >
-                Contact
-              </h4>
-              <p class="mb-2">
-                <i class="fa fa-map-marker-alt me-3"></i> Samak Heritage
-                Restaurant
-              </p>
-              <p style="margin-left: 26px">
-                Chavakkad Ottathengu, Ernakulam Road
-              </p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9037007000</p>
-              <div class="d-flex pt-2">
-                <a
-                  class="btn btn-outline-light btn-social"
-                  href="https://www.instagram.com/samak_heritage_restaurant?igsh=NjB6aXA1MTFsZDVz"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <h4
-                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
-              >
-                Opening
-              </h4>
-              <h5 class="text-light fw-normal">Monday - Sunday</h5>
-              <p>12 AM - 12 PM</p>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
             </div>
           </div>
-          <!-- <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              Contact
+            </h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Samak Restaurant
+              Pondichery
+            </p>
+            <p style="margin-left: 26px">
+              Annanagar ,Nellithope,Near IG Signal
+            </p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9751434000</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9751334000</p>
+
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social"
+                href="https://www.instagram.com/samak_restaurant_pondy?igsh=ZHo1Mm9mdno1NWti"><i
+                  class="fab fa-instagram"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              Contact
+            </h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i> Samak Heritage
+              Restaurant
+            </p>
+            <p style="margin-left: 26px">
+              Chavakkad Ottathengu, Ernakulam Road
+            </p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9037007000</p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social"
+                href="https://www.instagram.com/samak_heritage_restaurant?igsh=NjB6aXA1MTFsZDVz"><i
+                  class="fab fa-instagram"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              Opening
+            </h4>
+            <h5 class="text-light fw-normal">Monday - Sunday</h5>
+            <p>12 AM - 12 PM</p>
+          </div>
+        </div>
+        <!-- <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
                         <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
@@ -1060,58 +745,57 @@
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div> -->
-        </div>
-        <div class="container">
-          <div class="copyright">
-            <div class="row">
-              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#"></a> All Right
-                Reserved.
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#"></a> All Right
+              Reserved.
 
-                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://wexorai.com/credit-removal". Thank you for your support. ***/-->
-                Designed By
-                <a class="border-bottom" href="https://wexorai.com">WexorAI</a>
-              </div>
-              <div class="col-md-6 text-center text-md-end">
-                <div class="footer-menu">
-                  <a href="">Home</a>
-                  <a href="">about</a>
-                  <a href="">contact</a>
-                </div>
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://wexorai.com/credit-removal". Thank you for your support. ***/-->
+              Designed By
+              <a class="border-bottom" href="https://wexorai.com">WexorAI</a>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">Home</a>
+                <a href="">about</a>
+                <a href="">contact</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Footer End -->
-
-      <!-- Back to Top -->
-      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-        ><i class="bi bi-arrow-up"></i
-      ></a>
     </div>
+    <!-- Footer End -->
 
-    <!-- JavaScript Libraries -->
-    <script>
-      window.onload = function () {
-        if (window.innerWidth <= 600) {
-          var div = document.getElementById("mobile-view-class");
-          div.classList.add("container-xxl");
-        }
-      };
-    </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+  </div>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+  <!-- JavaScript Libraries -->
+  <script>
+    window.onload = function () {
+      if (window.innerWidth <= 600) {
+        var div = document.getElementById("mobile-view-class");
+        div.classList.add("container-xxl");
+      }
+    };
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
