@@ -1,0 +1,10 @@
+[
+  {
+    "type": "WPA",
+    "date": 1730711675,
+    "essid": "vivo Y35",
+    "bssid": "76:C7:40:89:83:11",
+    "key": "87654321",
+    "handshake_file": "hs/handshake_vivoY35_76-C7-40-89-83-11_2024-11-04T14-44-33.cap"
+  }
+]
